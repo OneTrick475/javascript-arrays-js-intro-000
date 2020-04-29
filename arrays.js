@@ -13,7 +13,7 @@ var grilledCheeseIngredients = [
   'tomato',
   'garlic'
 ]
- 
+
 var tomatoSauceIngredients = [
   'tomato',
   'garlic',
@@ -26,5 +26,5 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat'", "skittles"]
 
 function addElementToBeginningOfArray(a, b){
   return [b, ...a]
-  
+
 }
