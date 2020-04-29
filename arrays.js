@@ -50,3 +50,8 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
   a.shift()
   return a
 }
+
+function removeElementFromBeginningOfArray(a){
+  a.slice(1)
+  return a
+}
