@@ -57,7 +57,7 @@ function removeElementFromBeginningOfArray(a){
 }
 
 function destructivelyRemoveElementFromEndOfArray(a){
- return a.pop()
+ a.pop()
  return a
 }
 
